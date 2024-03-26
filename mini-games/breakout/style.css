@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  border: solid black 1px;
+  /* display: flex; */
+  position: absolute;
+  /* justify-items: center; */
+  width: 560px;
+  height: 300px;
+  /* grid-template-columns: auto auto auto auto auto auto auto auto auto; */
+}
+
+.block {
+  position: absolute;
+  background-color: teal;
+  height: 20px;
+  width: 100px;
+  /* left: 50px;
+  bottom: 50px; add these from js */
+}
+
+.user {
+  position: absolute;
+  background-color: crimson;
+  height: 20px;
+  width: 100px;
+  /* left: 50px;
+  bottom: 50px; add these from js */
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.button {
+  position: absolute;
+  top: 0;
+  background-color: black;
+}

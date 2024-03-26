@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#grid {
+  /* width: 516px;
+  height: auto; */
+  background: linear-gradient(to top, rgba(220, 20, 60, 1), rgb(23, 23, 23));
+  /* margin: 2px; */
+  display: grid;
+  gap: 2px;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+
+img {
+  height: 480px;
+  width: 270px;
+  /* padding: 2px; */
+}
+
+#navbar {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(23, 23, 23);
+}
+
+h3,
+span {
+  /* text-transform: uppercase; */
+  /* position: static; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
